@@ -3,6 +3,7 @@
 const firstName = "Zehra Misa";
 const lastName = "Akdoğan";
 const age = 27;
+let hobbies = "sinema, spor,kitap";
 let val;
 
 //string concatenation  
@@ -37,14 +38,14 @@ val = val.toLowerCase(); // val deki değerleri küçük harfle yazar.
 //val = val.replace("zehra", "samet") //değiştirmek istediğimiz değer için kullanırız. ilk önce var olan sonra yeni değerini yazıyoruz.
 
 // trim
-
+val = val.trim();
 
 //string lehght
 //val = val.length; //kaç karakterden oluşturuduğunu gösterir. boşluk dahildir.
 
 
 
-
+val = hobbies.split(","); //dizileri index numaralrına göre ayırıyor. yukarıda virgül ile ayrılanları gösterir. boşluk ile ayırırsak virgül yerine boşluk yazacağız.
 
 console.log(val);
 console.log(typeof val);
